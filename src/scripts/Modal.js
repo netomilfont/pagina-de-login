@@ -36,10 +36,6 @@ class Modal {
         divModalHeader.append(modalTitle, iptCloseModal)
         divModalContent.append(pRecPassword, inputEmail, btnLogin)
 
-        form.addEventListener("submit", (event) => {
-            event.preventDefault()
-        })
-
         return form
 
     }
