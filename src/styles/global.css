@@ -20,4 +20,17 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    animation: bodyMove 1.2s;
+}
+
+
+
+@keyframes bodyMove {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
